@@ -36,4 +36,6 @@ this project has been divided into two parts. In the first part, channel details
 
 In the second part a function has been built to extract video details from a particular channel. The details such as video title, total views each video has got, total number of likes, dislikes and comments each video has got have been extracted. Then the data from the videos posted by a particular channel has been analyzed in same process .
 
+It is important to have the knowledge before using any new tool. The official documentation for YouTube Data API v3 can be found <https://developers.google.com/youtube/v3>
+
 
