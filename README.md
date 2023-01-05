@@ -36,6 +36,9 @@ this project has been divided into two parts. In the first part, channel details
 
 In the second part a function has been built to extract video details from a particular channel. The details such as video title, total views each video has got, total number of likes, dislikes and comments each video has got have been extracted. Then the data from the videos posted by a particular channel has been analyzed in same process .
 
-It is important to have the knowledge before using any new tool. The official documentation for YouTube Data API v3 can be found <https://developers.google.com/youtube/v3>
+It is important to have the knowledge before using any new tool. The official documentation for YouTube Data API v3 can be found <https://developers.google.com/youtube/v3> . They provide guides, samples and general references about the API functionalities. The overview and list section from reference tab is very important to get familiar with the parameters. The Overview sections help to find information on what the resources are about and the list of their available methods.The list methods allows to retrieve data of a given resource. Another most important subsections are Parameters and Response. Parameters subsection includes the required and optional parameters to execute queries while response subsection shows the dictionary of properties the query responses will include. Resources whose match with the query parameters will be contained in the items property of the response. part parameter is the most important because this is used to request  the required properties that is needed to get for a particular resource. In this project snippet,statistics, content details parameters from part is used
+
+## Conclusion
+Google and YouTube are huge sources of data. A lot of information can be got from their servers using their tools such as YouTube’s APIs in order to gather massive amounts of a wide variety of data which helps to do analysis and more.
 
 
